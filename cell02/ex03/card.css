@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+.card {
+  width: 300px;
+  margin: 0 auto;
+  background: white;
+  border-collapse: collapse;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card td {
+  padding: 0;
+  border: none;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+}
+
+.login {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 16px 0 4px;
+}
+
+.desc {
+  color: gray;
+  padding-bottom: 12px;
+}
+
+.social {
+  padding: 8px 0 16px;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+  margin: 0 6px;
+}
+
+.contact {
+  display: block;
+  background: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.contact:hover {
+  background: #444;
+}
