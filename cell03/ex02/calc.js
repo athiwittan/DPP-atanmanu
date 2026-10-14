@@ -1,7 +1,7 @@
 const form = document.getElementById("form");
 
 form.addEventListener("submit", function (e) {
-  e.preventDefault(); // กันหน้าเว็บรีโหลดตอนกดปุ่ม
+  e.preventDefault();
 
   const a = document.getElementById("left").value;
   const b = document.getElementById("right").value;
