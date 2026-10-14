@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLEyEoDRA5gKMY1U4E1IpbHz9Nd6ELakTK1ngwg1Swbw&s=10");
+}
+
+.img2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3NFsRFi3l6rxYCd2WhXuby_rEBDg03AvEmXHDZXFMsQ&s=10");
+}
+
+.black-block {
+    background-color: black;
+}
