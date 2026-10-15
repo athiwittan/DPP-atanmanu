@@ -1,5 +1,3 @@
-const btn = document.getElementById("btn");
-
 function randomColor() {
   const r = Math.floor(Math.random() * 256);
   const g = Math.floor(Math.random() * 256);
@@ -7,6 +5,8 @@ function randomColor() {
   return "rgb(" + r + ", " + g + ", " + b + ")";
 }
 
-btn.addEventListener("click", function () {
-  document.body.style.backgroundColor = randomColor();
+$(function () {
+  $("#btn").on("click", function () {
+    $("body").css("background-color", randomColor());
+  });
 });
